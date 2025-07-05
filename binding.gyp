@@ -46,6 +46,7 @@
             ],
             "sources": ["src/node_bzip2_wrapper.cpp"],
             "include_dirs": ["<!(node -e \"require('nan')\")", "lib/bzip2"],
+            "defines": ["BZ_NO_STDIO"],  # <--- 在这里添加
             "cflags!": ["-fno-exceptions"],
             "cflags_cc!": ["-fno-exceptions"],
             "msvs_settings": {
