@@ -51,8 +51,8 @@
             "msvs_settings": {
                 "VCCLCompilerTool": {
                     "ExceptionHandling": 1,
-                    "RuntimeLibrary": "MultiThreadedDLL",
-                    "AdditionalOptions": ["/MD"],
+                    # "RuntimeLibrary": "MultiThreadedDLL",
+                    # "AdditionalOptions": ["/MD"],
                 }
             },
             "xcode_settings": {"GCC_ENABLE_CPP_EXCEPTIONS": "YES"},
