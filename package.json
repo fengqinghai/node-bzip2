@@ -4,6 +4,9 @@
 	"description": "NodeJS bindings for BZip2 (libbz2)",
 	"homepage": "https://github.com/fengqinghai/node-bzip2",
 	"repository": "https://github.com/fengqinghai/node-bzip2.git",
+	"publishConfig": {
+		"access": "public"
+	},
 	"bugs": {
 		"url": "https://github.com/WilliamVenner/node-bzip2/issues"
 	},
