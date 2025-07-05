@@ -1,6 +1,6 @@
 {
 	"name": "@fengqinghai/node-bzip2",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "NodeJS bindings for BZip2 (libbz2)",
 	"homepage": "https://github.com/fengqinghai/node-bzip2",
 	"repository": "https://github.com/fengqinghai/node-bzip2.git",
@@ -17,6 +17,13 @@
 		"compress",
 		"decompression",
 		"decompress"
+	],
+	"files": [
+		"src",
+		"lib/bzip2",
+		"binding.gyp",
+		"package.json",
+		"README.md"
 	],
 	"author": "William Venner <william@venner.io> (https://github.com/WilliamVenner)",
 	"main": "src/node-bzip2.js",
